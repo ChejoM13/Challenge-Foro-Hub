@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: forohub
+    version: 1
+  profiles:
+    active: prod
+  web:
+    resources:
+      add-mappings: false
+  error:
+    include-stacktrace: never
